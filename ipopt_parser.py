@@ -6,6 +6,11 @@ from collections import OrderedDict
 
 
 class IpoptParser:
+    """
+    Class to hold methods for working with Ipopt output files.
+
+    Specifically designed to be used when running Ipopt from Pyomo.
+    """
     def __init__(self):
         pass
 
